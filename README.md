@@ -68,8 +68,8 @@ SecureShare runs on Cloudflare Workers with KV storage. Deploy your own instance
 ### Quick Start
 
 ```bash
-git clone https://github.com/MeetanshiInc/SecureShare.git
-cd SecureShare
+git clone https://github.com/MeetanshiInc/SecureShare-OSS.git
+cd SecureShare-OSS
 npm install
 npx wrangler kv:namespace create SECRETS_KV
 # Update wrangler.toml with your namespace ID

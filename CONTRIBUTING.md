@@ -5,7 +5,7 @@ Thanks for your interest in contributing! SecureShare is open-source and we welc
 ## Getting Started
 
 1. Fork the repo
-2. Clone: `git clone https://github.com/YOUR_USERNAME/SecureShare.git`
+2. Clone: `git clone https://github.com/YOUR_USERNAME/SecureShare-OSS.git`
 3. Install: `npm install`
 4. Dev server: `npm run dev` (http://localhost:8787)
 5. Tests: `npm test`
