@@ -147,4 +147,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT - Created by [Meetanshi](https://meetanshi.com)
+MIT — Built by [Meetanshi Technologies](https://meetanshi.com)
