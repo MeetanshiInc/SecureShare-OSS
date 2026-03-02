@@ -1,0 +1,46 @@
+{
+  "name": "secureshare",
+  "version": "1.0.0",
+  "description": "Free, open-source one-time secret sharing with AES-256 end-to-end encryption",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "npm run build:worker && npm run build:frontend",
+    "build:worker": "tsc -p tsconfig.worker.json",
+    "build:frontend": "tsc -p tsconfig.frontend.json && cp src/frontend/*.html dist/frontend/ && cp src/frontend/*.png dist/frontend/frontend/ 2>/dev/null || true && cp src/frontend/*.js dist/frontend/frontend/ 2>/dev/null || true && cp src/frontend/*.svg dist/frontend/frontend/ 2>/dev/null || true && cp src/frontend/*.ico dist/frontend/frontend/ 2>/dev/null || true",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:production": "npm run build && wrangler deploy --env production",
+    "deploy:staging": "npm run build && wrangler deploy --env staging",
+    "kv:create": "wrangler kv:namespace create SECRETS_KV",
+    "kv:create:preview": "wrangler kv:namespace create SECRETS_KV --preview",
+    "kv:create:production": "wrangler kv:namespace create SECRETS_KV --env production",
+    "kv:list": "wrangler kv:namespace list",
+    "typecheck": "tsc --noEmit",
+    "tail": "wrangler tail",
+    "tail:production": "wrangler tail --env production"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "@types/node": "^20.11.0",
+    "fast-check": "^3.15.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0",
+    "wrangler": "^4.64.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "secret-sharing",
+    "encryption",
+    "cloudflare-workers",
+    "one-time-secret"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.4.2"
+  }
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2659"/>
+      <stop offset="100%" style="stop-color:#293373"/>
+    </linearGradient>
+    <linearGradient id="shield-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#293373"/>
+      <stop offset="100%" style="stop-color:#3B4A9E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F36F3A"/>
+      <stop offset="100%" style="stop-color:#FF8F5E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+  <rect x="0" y="626" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="1200" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="400" y1="0" x2="1200" y2="400" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="200" x2="800" y2="630" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- Shield + Lock icon -->
+  <g transform="translate(130, 200)">
+    <path d="M50 0 L95 18 L95 58 C95 82 75 100 50 110 C25 100 5 82 5 58 L5 18 Z" fill="url(#shield-g)"/>
+    <rect x="30" y="52" width="40" height="30" rx="4" fill="#F36F3A"/>
+    <path d="M36 52V42a14 14 0 0 1 28 0v10" fill="none" stroke="#FFF" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="50" cy="64" r="4" fill="#293373"/>
+    <rect x="48" y="67" width="4" height="7" rx="1.5" fill="#293373"/>
+  </g>
+
+  <!-- Title -->
+  <text x="300" y="280" font-family="system-ui,-apple-system,sans-serif" font-size="64" font-weight="700" letter-spacing="-1">
+    <tspan fill="white">Secure</tspan><tspan fill="#F36F3A">Share</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="300" y="325" font-family="system-ui,-apple-system,sans-serif" font-size="26" fill="rgba(255,255,255,0.65)">Share one-time secrets with self-destructing links</text>
+
+  <!-- Badges -->
+  <g transform="translate(300, 360)">
+    <rect x="0" y="0" width="195" height="36" rx="18" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="97" y="24" font-family="system-ui,sans-serif" font-size="13" fill="rgba(255,255,255,0.8)" font-weight="600" text-anchor="middle" letter-spacing="0.5">AES-256 ENCRYPTED</text>
+    <rect x="210" y="0" width="140" height="36" rx="18" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="280" y="24" font-family="system-ui,sans-serif" font-size="13" fill="rgba(255,255,255,0.8)" font-weight="600" text-anchor="middle" letter-spacing="0.5">END-TO-END</text>
+    <rect x="365" y="0" width="160" height="36" rx="18" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="445" y="24" font-family="system-ui,sans-serif" font-size="13" fill="rgba(255,255,255,0.8)" font-weight="600" text-anchor="middle" letter-spacing="0.5">ONE-TIME VIEW</text>
+  </g>
+
+  <!-- Domain + branding -->
+  <text x="300" y="470" font-family="system-ui,sans-serif" font-size="20" fill="rgba(255,255,255,0.4)">sec.meetanshi.com</text>
+  <text x="300" y="498" font-family="system-ui,sans-serif" font-size="18" fill="rgba(255,255,255,0.35)">by Meetanshi Technologies</text>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/frontend",
+    "noEmit": false,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": [
+    "src/frontend/**/*.ts",
+    "src/shared/**/*.ts"
+  ]
+}

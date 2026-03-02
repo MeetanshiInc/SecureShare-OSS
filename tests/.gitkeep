@@ -1,0 +1,4 @@
+# Tests directory for unit and property-based tests
+# This directory will contain:
+# - unit/ - Unit tests for specific examples and edge cases
+# - property/ - Property-based tests using fast-check

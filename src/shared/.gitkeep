@@ -1,0 +1,8 @@
+# Shared directory for types and utilities
+# This directory will contain:
+# - crypto/key-generator.ts - Key generation and splitting
+# - crypto/encryptor.ts - AES-256-GCM encryption/decryption
+# - crypto/password-deriver.ts - PBKDF2 password derivation
+# - encoding.ts - Base64url encoding utilities
+# - url-utils.ts - URL building and parsing
+# - types.ts - Shared TypeScript interfaces

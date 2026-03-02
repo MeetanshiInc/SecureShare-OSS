@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 52" fill="none">
+  <!-- Lock icon -->
+  <rect x="4" y="22" width="28" height="22" rx="3" fill="#F36F3A"/>
+  <path d="M10 22V16a8 8 0 0 1 16 0v6" stroke="#F36F3A" fill="none" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="18" cy="32" r="2.5" fill="#293373"/>
+  <line x1="18" y1="34" x2="18" y2="38" stroke="#293373" stroke-width="2" stroke-linecap="round"/>
+  <!-- "Secure" text -->
+  <text x="44" y="38" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif" font-size="32" font-weight="700" fill="#293373" letter-spacing="-0.5">Secure</text>
+  <!-- "Share" text -->
+  <text x="172" y="38" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif" font-size="32" font-weight="700" fill="#F36F3A" letter-spacing="-0.5">Share</text>
+  <!-- Tagline -->
+  <text x="44" y="50" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" font-weight="500" fill="#64748B" letter-spacing="0.5">by Meetanshi</text>
+</svg>

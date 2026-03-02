@@ -1,0 +1,6 @@
+# Frontend directory for static web application code
+# This directory will contain:
+# - index.html - Secret creation page
+# - view.html - Secret viewing page
+# - secret-creator.ts - Secret creation logic
+# - secret-viewer.ts - Secret viewing logic

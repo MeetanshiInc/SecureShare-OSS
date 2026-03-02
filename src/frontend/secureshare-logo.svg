@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">SecureShare by Meetanshi Technologies</title>
+  <defs>
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#293373"/>
+      <stop offset="100%" style="stop-color:#3B4A9E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield + Lock icon -->
+  <g id="icon">
+    <path d="M18 4 L36 10 L36 26 C36 36 28 44 18 48 C8 44 0 36 0 26 L0 10 Z" fill="url(#shield-grad)"/>
+    <rect x="10" y="22" width="16" height="12" rx="2" fill="#F36F3A"/>
+    <path d="M13 22V18a5 5 0 0 1 10 0v4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="18" cy="27" r="1.5" fill="#293373"/>
+    <rect x="17.25" y="28" width="1.5" height="2.5" rx="0.5" fill="#293373"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g id="wordmark">
+    <text x="46" y="33" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="26" font-weight="700" letter-spacing="-0.5">
+      <tspan fill="#293373">Secure</tspan><tspan fill="#F36F3A">Share</tspan>
+    </text>
+    <text x="46" y="47" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9.5" font-weight="500" fill="#94A3B8" letter-spacing="0.3">by Meetanshi Technologies</text>
+  </g>
+</svg>
