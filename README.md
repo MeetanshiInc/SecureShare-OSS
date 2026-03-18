@@ -11,7 +11,14 @@
   <a href="https://sec.meetanshi.com">Live Demo</a> &middot;
   <a href="#how-it-works">How It Works</a> &middot;
   <a href="#self-hosting">Self-Hosting</a> &middot;
-  <a href="#security-model">Security</a>
+  <a href="#security-model">Security</a> &middot;
+  <a href="SELF_HOSTING.md">Self-Host Guide</a>
+</p>
+
+<p align="center">
+  <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/MeetanshiInc/SecureShare-OSS">
+    <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare" />
+  </a>
 </p>
 
 <p align="center">
@@ -58,31 +65,23 @@
 
 ## Self-Hosting
 
-SecureShare runs on Cloudflare Workers with KV storage. Deploy your own instance in minutes.
+Deploy your own instance of SecureShare in under 2 minutes:
 
-### Prerequisites
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/MeetanshiInc/SecureShare-OSS)
 
-- Node.js 18+
-- A Cloudflare account (free tier works)
+Click the button, connect your GitHub/GitLab, and Cloudflare handles the rest — KV namespace provisioning, build, and deployment are all automatic.
 
-### Quick Start
+See the full [Self-Hosting Guide](SELF_HOSTING.md) for custom domains, configuration, and updating.
+
+### Local Development
 
 ```bash
 git clone https://github.com/MeetanshiInc/SecureShare-OSS.git
 cd SecureShare-OSS
 npm install
-npx wrangler kv:namespace create SECRETS_KV
-# Update wrangler.toml with your namespace ID
-npm run deploy
-```
-
-### Local Development
-
-```bash
 npm run dev
+# → http://localhost:8787
 ```
-
-Runs on http://localhost:8787
 
 ### Run Tests
 
