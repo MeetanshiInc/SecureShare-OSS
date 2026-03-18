@@ -61,9 +61,7 @@
 
 Deploy your own instance of SecureShare in under 2 minutes:
 
-<a href="https://deploy.workers.cloudflare.com/..." target="_blank">
-  <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare"/>
-</a>
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/MeetanshiInc/SecureShare-OSS)
 
 Click the button, connect your GitHub/GitLab, and Cloudflare handles the rest — KV namespace provisioning, build, and deployment are all automatic.
 
