@@ -16,12 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/MeetanshiInc/SecureShare-OSS">
-    <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare" />
-  </a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/encryption-AES--256--GCM-blue" alt="AES-256-GCM" />
   <img src="https://img.shields.io/badge/runtime-Cloudflare%20Workers-orange" alt="Cloudflare Workers" />
   <img src="https://img.shields.io/badge/tests-484%20passing-brightgreen" alt="484 tests" />
